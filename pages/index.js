@@ -17,7 +17,7 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
-      <Head> <title>Landing page</title></Head>
+      <Head> <title>Derek Moore Next.js blog | Server Side Rendering for React build.</title></Head>
       <section className={utilStyles.headingMd}></section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>The Blog</h2>
